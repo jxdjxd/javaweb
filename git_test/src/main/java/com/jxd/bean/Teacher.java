@@ -14,9 +14,8 @@ public class Teacher {
 
     public Teacher(String name, int age){
         System.out.println();
-        System.out.println();
         fullName = name;
-        System.out.println();
+        System.out.println("这是reform更改的");
         this.age = age;
     }
 }
