@@ -13,7 +13,10 @@ public class Teacher {
     }
 
     public Teacher(String name, int age){
+        System.out.println();
+        System.out.println();
         fullName = name;
+        System.out.println();
         this.age = age;
     }
 }
