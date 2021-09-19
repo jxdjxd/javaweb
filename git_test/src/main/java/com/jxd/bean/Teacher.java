@@ -6,12 +6,14 @@ package com.jxd.bean;
  */
 public class Teacher {
     private String fullName;
+    private int age;
 
     public Teacher(){
 
     }
 
-    public Teacher(String name){
+    public Teacher(String name, int age){
         fullName = name;
+        this.age = age;
     }
 }
