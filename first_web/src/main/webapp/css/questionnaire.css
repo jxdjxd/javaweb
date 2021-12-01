@@ -1,0 +1,59 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+form {
+    border: 1px solid #0f0f0f;
+    background-color: aliceblue;
+    display: block;
+    width: 600px;
+    margin: 40px auto;
+}
+
+thead,
+tbody {
+    display: inline-block;
+}
+
+form tr {
+    display: inline-block;
+    width: 400px;
+    margin: 20px auto;
+}
+
+form tr td {
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111314;
+}
+
+form tr td label{
+    font-size: 16px;
+    font-weight: 400;
+    color: #111314;
+}
+
+tbody tr:nth-child(1) label,
+tbody tr:nth-child(2) label{
+    font-size: 16px;
+    font-weight: 700;
+    color: #111314;
+}
+
+input[type="submit"] {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #4d9ce0;
+}
+
+tbody tr:nth-child(3) label,
+tbody tr:nth-child(4) label {
+    margin-left: 20px;
+}
+
+
+
